@@ -1,0 +1,73 @@
+@import "reset.css";
+
+body {
+  background-color: gainsboro;
+  height: 100%;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.game-text {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  left: 0;
+  top: 0;
+  color: #fff;
+  font-size: 50px;
+}
+.game-text > button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: gray;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.score {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 2rem;
+}
+
+.playground > ul {
+  border: 1px solid #333;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.playground > ul > li {
+  width: 100%;
+  height: 25px;
+}
+.playground > ul > li > ul {
+  display: flex;
+}
+.playground > ul > li > ul > li {
+  width: 25px;
+  height: 25px;
+  outline: 1px solid #ccc;
+}
+.tree {
+  background: skyblue;
+}
+.square {
+  background: blue;
+}
+.elRight {
+  background: purple;
+}
+.elLeft {
+  background: orange;
+}
+.zee {
+  background: greenyellow;
+}
+.bar {
+  background: teal;
+}
